@@ -2,12 +2,12 @@ import React, { useState, useEffect } from 'react';
 
 import { Volume2, VolumeX, RotateCcw, Star } from 'lucide-react';
 
-const EmotiMatch = () => {
+const EmojiMatch = () => {
   const [currentScenario, setCurrentScenario] = useState(0);
   const [selectedEmotion, setSelectedEmotion] = useState(null);
   const [feedback, setFeedback] = useState('');
   const [score, setScore] = useState(0);
-  const [voiceEnabled, setVoiceEnabled] = useState(false);
+  const [voiceEnabled, setVoiceEnabled] = useState(true);
   const [gameCompleted, setGameCompleted] = useState(false);
 
   // Emotions with emoji representations
@@ -251,4 +251,4 @@ const EmotiMatch = () => {
   );
 };
 
-export default EmotiMatch;
+export default EmojiMatch;

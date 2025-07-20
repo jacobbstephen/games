@@ -226,11 +226,7 @@ const lastLevelRef = useRef(currentLevel);
               `}
               style={{ backgroundColor: colorItem.color }}
             >
-              <div className="w-full h-full flex items-center justify-center">
-                <span className="text-white font-bold text-lg md:text-xl bg-black bg-opacity-20 px-3 py-1 rounded-full">
-                  {colorItem.name}
-                </span>
-              </div>
+              
             </button>
           ))}
         </div>

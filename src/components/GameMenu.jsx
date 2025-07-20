@@ -37,6 +37,16 @@ const GameMenu = ({ onGameSelect }) => {
 
   // List of games
   const games = [
+    {
+  id: 'multiply',
+  name: 'Multiplication Game',
+  icon: '✖️',
+  character: '🐵',
+  description: 'Practice multiplication tables with your monkey friend!',
+  color: 'teal',
+  available: true
+},
+
 
   {
     id: 'emoji',
@@ -47,15 +57,15 @@ const GameMenu = ({ onGameSelect }) => {
     color: 'purple',
     available: true
   },
-  {
-    id: 'safari',
-    name: 'Safari Game',
-    icon: '🦁',
-    character: '🐘',
-    description: 'Explore animals and learn about wildlife',
-    color: 'green',
-    available: true
-  },
+//   {
+//     id: 'safari',
+//     name: 'Safari Game',
+//     icon: '🦁',
+//     character: '🐘',
+//     description: 'Explore animals and learn about wildlife',
+//     color: 'green',
+//     available: true
+//   },
   {
     id: 'colors',
     name: 'Color Match',

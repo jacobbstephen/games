@@ -227,6 +227,7 @@ const Safari = () => {
         <p className="text-lg mb-8 text-gray-300">
           An Audio Adventure Game
         </p>
+        <p className="text-lg text-gray-600 mb-4">🎧 Please use headphones for the best experience</p>
 
         {/* Game Status */}
         {gameStarted && (
