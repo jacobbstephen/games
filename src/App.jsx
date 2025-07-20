@@ -2,9 +2,10 @@
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import GameMenu from './components/GameMenu';
-import MathGame from './components/MultiplicationGame'; 
+
 import Safari from './components/Safari';
 import Emoji from './components/EmotiMatch';
+import ColorMatchingGame from './components/ColorMatchingGame';
 
 function App() {
   const [selectedGame, setSelectedGame] = useState(null);
@@ -13,9 +14,10 @@ function App() {
     <Router>
       <Routes>
         <Route path="/" element={<GameMenu onGameSelect={(gameId) => setSelectedGame(gameId)} />} />
-        <Route path="/maths" element={<MathGame />} />
+
         <Route path="/emoji" element={<Emoji />} />
         <Route path="/safari" element={<Safari />} />
+        <Route path="/colors" element={<ColorMatchingGame />} />
         {/* Add other routes here later like emoji, safari, etc. */}
       </Routes>
     </Router>
