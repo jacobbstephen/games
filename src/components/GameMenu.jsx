@@ -57,15 +57,7 @@ const GameMenu = ({ onGameSelect }) => {
     color: 'purple',
     available: true
   },
-//   {
-//     id: 'safari',
-//     name: 'Safari Game',
-//     icon: '🦁',
-//     character: '🐘',
-//     description: 'Explore animals and learn about wildlife',
-//     color: 'green',
-//     available: true
-//   },
+
   {
     id: 'colors',
     name: 'Color Match',
