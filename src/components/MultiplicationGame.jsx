@@ -153,7 +153,7 @@ const MultiplicationGame = () => {
     return (
       <div className="min-h-screen bg-gray-100 flex flex-col items-center justify-center p-4 font-mono">
         <div className="text-center max-w-2xl">
-          {/* Friendly Monkey Character */}
+          
           <div className="text-8xl mb-4 animate-bounce">
             🐵
           </div>
